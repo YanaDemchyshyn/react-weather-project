@@ -14,13 +14,13 @@ import "./form.css";
 
 
 export default function App() {
-  let [city, setCity] = useState("Kyiv");
+    let [city, setCity] = useState("Kyiv");
 
-   function handleSubmit(event) {
-    event.preventDefault();
-    console.log(event.target.city);
-    setCity(event.target.city.value);
-  }
+    function handleSubmit(event) {
+        event.preventDefault();
+        console.log(event.target.city);
+        setCity(event.target.city.value);
+    }
 
   return(
     <div className="weatherApp">
