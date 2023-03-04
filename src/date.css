@@ -1,0 +1,15 @@
+.City-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+.Date {
+  text-align: left;
+  margin: 5px 20px 0;
+}
+@media (max-width: 570px) {
+  .City-name,
+  .Date {
+    text-align: center;
+    font-size: 13px;
+  }
+}

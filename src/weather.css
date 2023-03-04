@@ -1,0 +1,22 @@
+.Weather {
+  text-align: left;
+  margin: 0 10px;
+}
+.Temperature {
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0 5px;
+  position: relative;
+  top: 20px;
+}
+@media (max-width: 570px) {
+  .Weather {
+    text-align: center;
+  }
+  .Temperature {
+    font-size: 35px;
+  }
+  .Icon {
+    width: 80px;
+  }
+}

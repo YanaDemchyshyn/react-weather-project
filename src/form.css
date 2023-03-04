@@ -1,0 +1,39 @@
+form {
+  margin: 10px auto;
+}
+.enter-text {
+  max-width: 440px;
+  width: 100%;
+  text-indent: 7px;
+  border: 1px solid rgb(86, 93, 133);
+  border-radius: 3px;
+  height: 32px;
+  margin: 0 5px 5px 0;
+}
+.search-button {
+  max-width: 85px;
+  width: 100%;
+  height: 31px;
+  border-radius: 3px;
+  background-color: rgb(97, 136, 163);
+  color: white;
+  font-size: 16px;
+  border: 2px solid rgb(94, 123, 143);
+  box-shadow: 2px 3px 3px rgb(0, 0, 0, 0.1);
+}
+.search-button:hover {
+  background-color: rgb(76, 94, 106);
+  border: 2px solid rgb(81, 100, 112);
+}
+
+@media (max-width: 500px) {
+  .enter-text {
+    max-width: 210px;
+  }
+  .search-button {
+    max-width: 65px;
+    font-size: 12px;
+    position: relative;
+    top: -2.7px;
+  }
+}
