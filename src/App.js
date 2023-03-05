@@ -10,6 +10,7 @@ import Current from "./Current";
 import Weather from "./Weather";
 import Details from "./Details";
 import Description from "./Description";
+import ProfileUrl from "./ProfileUrl";
 import "./form.css";
 
 
@@ -48,6 +49,7 @@ export default function App() {
         </Row>
         <Description city={city}/>
       </Container>
+      <ProfileUrl />
     </div>
     )
 }
